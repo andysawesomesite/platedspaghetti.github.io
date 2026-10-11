@@ -83,21 +83,6 @@ newImgW = winW;
 }
 newRatio = newImgW/newImgH;
 
-// these document.write is what I used to see what was going on and it helped
-// figure out the math for the if else statement above.
-//document.write("width = " + winW + " and height = " + winH + "<br />");
-//document.write("pic width = " + imgW + " and height = " + imgH + "<br />");
-//document.write("new pic width = " + newImgW + " and height =" + newImgH + "<br />");
-//document.write("window ratio = " + (winW/winH) + "<br />");
-//document.write("Old Pic ratio = " + oldRatio + "<br />");
-//document.write("New Pic ratio = " + newRatio + "<br />");
-
-
-//mybg.style.height = null; don't need these next three lines after all
-//mybg.style.width = null;
-
-//(winH <= winW) ? mybg.style.height = winH + 'px' : mybg.style.width = winW + 'px';
-
 mybg.setAttribute('width',newImgW);
 mybg.setAttribute('height',newImgH);
 }
@@ -119,11 +104,3 @@ window.onresize = resizeImg;
 </body>
 
 </html>
-
-<title>pipi</title>
-</head>
-<body>
-  
-<a href="binairstelsel.html">BORING people page</a>
-
-</body>
