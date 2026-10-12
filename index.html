@@ -4,105 +4,22 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Welcome to My WebSite</title>
-
-
-<style type="text/css" media="all">
-:link,:visited { text-decoration:none }
-ul,ol { list-style:none }
-h1,h2,h3,h4,h5,h6,pre,code { font-size:small; }ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{ margin:0; padding:0 }
-a img,:link img,:visited img { border:none }
-address { font-style:arial }
-
-
-body {
-margin:0px;
-padding:0px;
-background-blend-mode: multiply;
-overflow-x:hidden;
-height: 100%; 
-}
-
-img.bg {
-position:center;
-left:0px;
-top:0px;
-z-index:0;
-}
-
-
-
-div.og {
-position: center;
-top: 50px;
-/*
-left:60%;
-float:right;
-width:40%;
-*/
-z-index:5;
-left:0;
-width:100%;
-margin:0px;
-}
-
-#contentblock{
-	display:block;
-	width:600px;
-	height:2500px;
-	background-color:#740000;
-	margin:0px auto;
-}
-
-
-</style>
-<script type="text/javascript">
-function resizeImg() {
-
-var mybg = document.getElementById('mybgimg');
-var winW = (window.innerWidth) ? window.innerWidth : document.body.offsetWidth;
-var winH = (window.innerHeight) ? window.innerHeight : document.body.offsetHeight;
-var newImgH = 0;
-var newImgW = 0;
-var imgW = mybg.getAttribute('width');
-var imgH = mybg.getAttribute('height');
-var winR = winW/winH
-var oldRatio = imgW/imgH;
-var newRatio;
-
-
-if(winR <= oldRatio)
-{
-newImgH = winH;
-newImgW = Math.round(winH * (imgW/imgH));
-}
-else
-{
-newImgH = Math.round(winW * (imgH/imgW));
-newImgW = winW;
-}
-newRatio = newImgW/newImgH;
-
-mybg.setAttribute('width',newImgW);
-mybg.setAttribute('height',newImgH);
-}
-
-window.onload = resizeImg;
-window.onresize = resizeImg;
-</script>
-
-
-
+<title> Start ! </title>
 </head>
-
 <body>
 
-<img class="bg" border="0" src="https://images5.alphacoders.com/798/thumb-1920-798722.png" id="mybgimg" width="100%" height="100%" alt="test" />
+	<style>
+	
+@font-face {
+font-family: PC98;
+src: url(https://dl.dropbox.com/s/q6te1rmeglfy4bf/pc-9800.ttf);
+}
 
-div .og 
 
+    body
+	{
+     	font-family: windows;
+	}
 
-
+	</style>
 </body>
-
-</html>
