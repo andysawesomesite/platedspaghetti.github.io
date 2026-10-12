@@ -44,4 +44,15 @@ audio::-webkit-media-controls-panel {
     <audio controls loop, src="toby fox - UNDERTALE Soundtrack - 31 Waterfall.mp3"></audio>
 </div>
 
+<script>
+    const player = document.getElementById('player');
+	    player.addEventListener('dragstart', (e) => {
+        player.style.right = 'auto';
+		    });
+    player.addEventListener('dragend', (e) => {
+        player.style.left = e.clientX + 'px';
+        player.style.top = e.clientY + 'px';
+    });
+</script>
+</script>
 </body>
