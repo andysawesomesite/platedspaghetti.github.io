@@ -34,12 +34,76 @@ audio::-webkit-media-controls-panel {
 		background-attachment:fixed;
 		background-position: center;
 		overflow: hidden;  
-		background-size: cover;
+		background-size: cover; 
+	
 
+	
+	height:100px;
+	width:500px;
+	margin:0px auto;
 	}
+#wrapper
+{
+	height:200px;
+	width:500px;
+	background-color: rgb(181, 38, 38);
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	position: relative;
+	margin:0px auto;
+	border-radius: 20px;
+}
+h1
+{
+	font-style: oblique;
+	color:white;
+
+}
+#boss
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-top: 4px;
+	
+}
+#playlist_area
+{
+	background-color: rgb(181, 38, 38);
+	width:500px;
+}
+body
+{
+	display: flex;
+	justify-content:center;
+	background-color:rgb(181, 38, 38);
+}
+.speaker
+{
+	height:416px;
+
+}
+#left_button,#right_button
+{
+	height:60px;
+	width:60px;
+}
+.buttons
+{
+	width:500px;
+	display: flex;
+	justify-content:space-around;
+}
+.over
+{
+	border:dashed 2px black;
+}
+
+	
 	
 </style>
-<!-- ive played around witht his repeatedly. this should make it draggable and on the right side hopefully/// the music also sometimes just didnt work for no reason.-->
+<!-- the script part should make the dragging work, making it possible to place the player where the user wants. audio works just fine...  and i considered makign the background transparent but the margin looks nice. -->
 <div id="player" draggable="true" style="position: fixed; top: 15%; right: 20px; z-index: 1000; background: #000000; border: 1px solid #000000; padding: 5px; border-radius: 5px; box-shadow: 2px 4px 10px rgba(0,0,0,0.2); cursor: move;">
     <audio controls loop, src="toby fox - UNDERTALE Soundtrack - 31 Waterfall.mp3"></audio>
 </div>
