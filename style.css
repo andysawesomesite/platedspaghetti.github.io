@@ -13,7 +13,7 @@ src: url(https://dl.dropbox.com/s/q6te1rmeglfy4bf/pc-9800.ttf);
 		overflow: scroll; 
     overflow-x: hidden; 
 		background-size: cover; 
-    overflow-y:  scroll
+    overflow-y:  auto;
   
 	}
 
