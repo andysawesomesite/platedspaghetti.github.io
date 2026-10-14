@@ -1,4 +1,17 @@
-  @font-face {
+html {
+overflow: scroll;
+overflow-x: hidden;
+}
+::-webkit-scrollbar {
+width: 0; /* remove scrollbar space */
+background: transparent; /* to make scrollbar invisible */
+}
+::-webkit-scrollbar-thumb {
+background: transparent;
+}
+
+
+@font-face {
 font-family: PC98;
 src: url(https://dl.dropbox.com/s/q6te1rmeglfy4bf/pc-9800.ttf);
 }
