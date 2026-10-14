@@ -1,0 +1,254 @@
+@font-face {
+font-family: PC98;
+src: url(https://dl.dropbox.com/s/q6te1rmeglfy4bf/pc-9800.ttf);
+}
+
+    body
+	{
+     	font-family: windows; 
+	/* background picture, no scrollbar + fixed in place. picture was taken off some wallpaper website. */
+		background-image: url(https://images5.alphacoders.com/798/thumb-1920-798722.png);
+		background-attachment: fixed;
+		background-position: center;
+		overflow: scroll;  
+		background-size: cover; 
+	}
+	
+.container {
+border-style: solid;
+border-width: 10px;
+border-image: url("https://dl.dropbox.com/scl/fi/6wo0voidugxmgg0a81v20/lace-border-png-37013.png?rlkey=3hn4k762e8y0v6d2v6mwrtcbr&st=5o8bpex4") 60 fill round;       
+height: 665px;
+width: 884px;
+margin:auto;
+position: relatie;
+padding: 5px;
+z-index: 4;
+}
+/* first put css since thats gonna generally show how it looks n then if u add html its going to be organzied by it so its all nice and in place :3 ^ up is the border so it looks awesomely */
+       
+    .container-one {
+ border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  background-image: url('https://sadhost.neocities.org/images/tiles/cubicblue.jpg');
+  background-repeat: repeat;
+  width: 880px;
+  position: relative;
+  left: 1px;
+  height: 150px;
+  box-shadow: 0 0 8px 8px rgb(0, 0, 0) inset;
+  z-index: 5;
+    }
+
+/*dont forget to make it neon!!!! and a diff color n stuff*/
+#name 
+{font-family: PC98;
+
+  font-size: 4em;
+
+  -webkit-text-stroke: 4px #dfe7e7;
+  -webkit-text-stroke-width: thin; 
+  color: #000000;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+.outer 
+{
+border-width: 7px;   
+border-style: solid;
+border-image: url("https://i.imgur.com/6TCYo5p.png") 4 fill round;
+border-radius:15px;
+width: 115px;
+height: 116px;
+margin-top: 10px;
+margin-left: 7px;
+}
+
+.inner
+{
+  background-image: url('https://media.tenor.com/Rjz21BuY9mAAAAAe/frisk-dance-dancing-frisk.png');
+  background-size: cover;
+  width: 100%;
+height: 100%;
+
+}
+
+.bg, .in { box-sizing: border-box;}
+
+.bg {
+/* for a plain background, kept just incase */
+background: #17333924;
+
+/* for image background. remove it if you want a plain BG */
+background-image:url(https://file.garden/ZWlUCY4S7Xz2vypS/archived%20backgrounds/colours/blue/blue042.jpg);
+background-repeat: repeat;
+background-size:cover;
+
+padding:12px; /* make number bigger/smaller for a bigger/smaller border */
+width:400%;
+border:1px solid black;
+position: relative;
+top: -7.5em;   /* to position it as u want */
+left: 138px;
+}
+
+.in {
+font-family: PC98;
+line-height: 1.125em; /* makes text closer together :p */
+background: #FFF;
+color: #003a3c;
+padding:5px;
+border:1px solid black;
+height:103px; 
+overflow-y:auto; /* overflow generally adds a scroll! i considered removing it but i kinda like it so whatever */
+box-shadow: inset 13px 0 6px -10px rgb(66 66 66 / 30%), inset -13px 0 6px -10px rgb(66 66 66 / 30%), inset 0 13px 6px -10px #f0f0f0, inset 0 0 0 -10px rgb(66 66 66 / 30%); /* just some shadow in the box with text :p */
+}
+
+.intro {
+    background-image: radial-gradient(rgb(51, 110, 119) 30%, transparent 70%);
+  font-family: PC98;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 1px #ffff;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.ipad
+{border-radius: 10px;
+  padding: 1em 0.55em 1em 0.55em;
+  width: 19.5em;
+  height: 19.5em;
+  background: #397787;
+margin-left: -5px; 
+margin-top: 7px;
+}
+
+.apple
+{
+  height: 16.5em;
+  background: white;
+  border-radius: 2px;
+  border: 2px inset #6484a3; /* this is to add the texting-looking thing */
+}
+
+.four
+{
+    position: relative;
+    top: -7.5em;
+}
+
+.bubble
+{
+    border-radius: 0px 25px 25px 25px;
+  padding: 7px;
+  background: #83fffb;
+  font-family: pixel;
+  box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 56%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
+  margin-bottom: 10px;
+  border: 1px solid #1d393f;
+}
+
+.bubble2
+{
+  border-radius: 25px 0px 25px 25px;
+  padding: 7px;
+  background: #e1eef0;
+  font-family: pixel;
+  box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 56%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
+  margin-bottom: 10px;
+  border: 1px solid #535c5c;
+}
+
+.chat
+{height: 15.5em;
+  width: 18em;
+  position: relative;
+  top: -16.125em;
+  left: 13px;
+  overflow-y: scroll; }
+
+.navi
+{
+    border: 3px solid #000000;
+  height: 200.5px;
+  background: white;
+  width: 281px;
+  position: relative;
+  top: -37.5em;
+  left: 595px;
+  box-shadow: inset 13px 0 6px -10px rgb(66 66 66 / 30%), inset -13px 0 6px -10px rgb(66 66 66 / 30%), inset 0 13px 6px -10px #f0f0f0, inset 0 0 0 -10px rgb(66 66 66 / 30%);
+}
+
+
+
+
+buttons
+{
+    border-radius: 50px;
+  border: 2px solid black;
+  font-family: pixel;
+  font-size: 1.25em;
+  color: rgb(0, 0, 0);
+  width: 276px;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+.comm {
+width: 18em;
+height: 16.25em;
+border-radius: 15px;
+border: 1px solid white;
+box-shadow: inset 10px 0px 6px -10px rgba(66,66,66,0.565), inset -10px 0px 6px -10px rgba(66,66,66,0.565), inset 0px 10px 6px -10px #ffffff, inset 0px -10px 6px -10px rgba(66,66,66,0.376);
+background: radial-gradient(circle, rgb(0, 0, 0) 37%, #00a0b8 100%);
+position: relative;
+top: -36.75em;
+  left: 595px;}
+
+.imagemask {
+background-image: url("https://i.pinimg.com/736x/fa/66/73/fa66736df84509ac13e05c9372131550.jpg");
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-size: 2em;
+font-weight:bold;
+font-family: PC98;
+width:fit-content;
+margin: bottom 5px;
+margin:0 auto; /* this is to center, if needed */
+/* add below if you want an outline, if not remove */
+filter: drop-shadow(0px 1px black) drop-shadow(0 -1px black) drop-shadow(1px 0 black) drop-shadow(-1px 0 black);
+}
+
+.top
+{
+    background: #00a0b8;
+font-family: PC98;
+text-align: center;
+  color: white;
+border-radius: 10px 10px 0 0;
+padding: 0.5em;
+box-shadow: inset 10px 0px 6px -10px rgba(66,66,66,0.565), inset -10px 0px 6px -10px rgba(66,66,66,0.565), inset 0px 10px 6px -10px #ffffff, inset 0px -10px 6px -10px rgba(255, 255, 255,0.76);
+filter: drop-shadow(0px 0px 1px black);
+  -webkit-text-stroke: 0.5px black;
+  width: 15em;
+  margin-left: 17px;
+}
+
+.bottom
+{
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+border-radius: 0px 0px 10px 10px;
+padding: 0.9em;
+box-shadow: inset 10px 0px 6px -10px rgba(66,66,66,0.565), inset -10px 0px 6px -10px rgba(66,66,66,0.565), inset 0px 10px 6px -10px #ffffff, inset 0px -10px 6px -10px rgba(255, 255, 255,0.76);
+filter: drop-shadow(0px 0px 1px black);
+  font-family: pixel;
+  color: rgb(248, 247, 247);
+  width: 14.2em;
+  margin-left: 17px;
+  height: 7em;
+  line-height: 1.375em;
+  overflow-y: scroll;
+}
