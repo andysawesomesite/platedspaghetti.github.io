@@ -48,12 +48,12 @@ z-index: 4;
 #name 
 {font-family: PC98;
 
-  font-size: 4em;
+  font-size: 5em;
 
-  -webkit-text-stroke: 4px #dfe7e7;
+  -webkit-text-stroke: 4px #001111;
   -webkit-text-stroke-width: thin; 
-  color: #000000;
-  margin-top: 80px;
+  color: #d7f7f4;
+  margin-top: 75px;
   margin-left: 10px;
 }
 
