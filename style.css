@@ -3,12 +3,10 @@ overflow: scroll;
 overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-width: 0; /* remove scrollbar space */
+width: 0; /* removes scrollbar space@@@ */
 background: transparent; /* to make scrollbar invisible */
 }
-::-webkit-scrollbar-thumb {
-background: transparent;
-}
+
 
 
 @font-face {
@@ -19,7 +17,7 @@ src: url(https://dl.dropbox.com/s/q6te1rmeglfy4bf/pc-9800.ttf);
     body
 	{
      	font-family: windows; 
-	/* background picture, no scrollbar + fixed in place. picture was taken off some wallpaper website. */
+	/* background picture, picture was taken off some wallpaper website. */
 		background-image: url(https://images5.alphacoders.com/798/thumb-1920-798722.png);
 		background-attachment: fixed;
 		background-position: center;
