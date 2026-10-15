@@ -28,10 +28,7 @@ src: url(https://dl.dropbox.com/s/q6te1rmeglfy4bf/pc-9800.ttf);
 /* self-explanatory */
 
 	
-.container {
-border-style: solid;
-border-width: 10px;
-border-image: url("https://dl.dropbox.com/scl/fi/6wo0voidugxmgg0a81v20/lace-border-png-37013.png?rlkey=3hn4k762e8y0v6d2v6mwrtcbr&st=5o8bpex4") 60 fill round;       
+.container {       
 height: 665px;
 width: 884px;
 margin:auto;
