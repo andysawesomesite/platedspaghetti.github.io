@@ -370,6 +370,15 @@ supposedly more interesting topic */
     background: white;
 }
 
+.iner.small 
+{
+overflow-y: scroll;
+width: 300px;
+height: 150px;
+}
+
+
+
 .out.small
 {
   height: 300px;
