@@ -250,8 +250,8 @@ supposedly more interesting topic */
 
 .binarybonanza
 {
-width: 700px;
-height: 500;
-margin-bottom: 10px;
-margin-right: 20px;
+  position: fixed; 
+  bottom: 20px;     
+  right: 20px;    
 }
+
