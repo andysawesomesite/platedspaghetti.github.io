@@ -298,6 +298,7 @@ supposedly more interesting topic */
    width: 100px;
    padding: 10px;
    background: #fff   /* change color if u want to fit purple theme!! dont forget */
+   linear-gradient(0deg,rgba(255,255,255,1)0%, rgba(255,255,255,1)92%, rgba(225,225,225,1)0%);
  }
 
  .right
@@ -309,4 +310,5 @@ supposedly more interesting topic */
    width: 100px;
    padding: 10px;
    background: #fff
+   linear-gradient(0deg,rgba(255,255,255,1)0%, rgba(255,255,255,1)92%, rgba(225,225,225,1)0%);
  }
