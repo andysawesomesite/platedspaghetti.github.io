@@ -266,8 +266,8 @@ filter: drop-shadow(0px 0px 1px black);
 
 .undertale {      /* i had to make a whole new css class for it to stop being messy*/
   position: absolute;
-  top: 500px;
-  left: 500px;
+  top: 480px;
+  left: 600px;
   width: 245px;
   height: 352px;
 }
