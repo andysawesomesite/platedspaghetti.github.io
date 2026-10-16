@@ -302,5 +302,11 @@ supposedly more interesting topic */
 
  .right
  {
- width:auto
+    border: 1px solid #808080;
+   border-right: none;
+   border-radius: 0px 10px 10px 0px;
+   height:405px;
+   width: 100px;
+   padding: 10px;
+   background: #fff
  }
