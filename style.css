@@ -189,7 +189,7 @@ height: 16.25em;
 border-radius: 15px;
 border: 1px solid white;
 box-shadow: inset 10px 0px 6px -10px rgba(66,66,66,0.565), inset -10px 0px 6px -10px rgba(66,66,66,0.565), inset 0px 10px 6px -10px #ffffff, inset 0px -10px 6px -10px rgba(66,66,66,0.376);
-background: radial-gradient(circle, rgb(0, 0, 0) 37%, #00a0b8 100%);
+background: radial-gradient(circle, rgb(0, 0, 0) 37%, #000000 100%);
 position: relative;
 top: -36.75em;
   left: 595px;
