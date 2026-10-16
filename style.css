@@ -215,6 +215,7 @@ filter: drop-shadow(0px 0px 1px black);
 
 /* Navigation menu */
 .comm .nav {
+  margin-top:10px;
   padding: 5px 12px;
   font-family: PC98, monospace;
 }
