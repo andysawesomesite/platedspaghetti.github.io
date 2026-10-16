@@ -363,21 +363,12 @@ supposedly more interesting topic */
 .iner
 {
     border-bottom: 1px solid #808080;
-    border-left: 1px solid #808080;
+    border-left: 1px solid  #808080;
     border-right: 1px solid #808080;
     border-radius: 0px 0px 10px 10px;
     padding: 10px;
     background: white;
 }
-
-.iner.small 
-{
-overflow-y: scroll;
-width: 290px;
-height: 265px;
-}
-
-
 
 .out.small
 {
@@ -393,3 +384,9 @@ top: -25em;
 left:57em;
 }
 
+.iner.small 
+{
+overflow-y: scroll;
+width: 290px;
+height: 265px;
+}
