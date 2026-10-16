@@ -387,6 +387,7 @@ left:57em;
 .iner.small 
 {
 overflow-y: scroll;
+overflow-x: hidden;
 width: 290px;
 height: 265px;
 }
