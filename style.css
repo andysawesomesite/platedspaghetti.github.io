@@ -289,4 +289,18 @@ supposedly more interesting topic */
     position: relative;
   }
 
+ .left
+ {
+   border: 1px solid #808080;
+   border-right: none;
+   border-radius: 10px 0px 0px 10px;
+   height:405px;
+   width: 100px;
+   padding: 10px;
+   background: #fff   /* change color if u want to fit purple theme!! dont forget */
+ }
 
+ .right
+ {
+ width:auto
+ }
