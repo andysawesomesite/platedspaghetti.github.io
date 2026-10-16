@@ -271,3 +271,23 @@ supposedly more interesting topic */
     padding: 0;
   }
 }
+
+  .desktop
+  {
+    position: absolute;
+    top: -3em;    /* set to 0 if u dont want the stuff moved arounddd :p */
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform-origin: top left; 
+  }
+
+    .outer           /* make em look 3d~~~ */
+                       {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+  }
+
+
+
